@@ -1,3 +1,6 @@
 [submodule "Developing Front-End Apps with React/labs/child"]
 	path = Developing Front-End Apps with React/labs/child
 	url = https://github.com/BogdanBargaoanu/conference_event_planner
+[submodule "Developing Front-End Apps with React/labs/conference_event_planner"]
+	path = Developing Front-End Apps with React/labs/conference_event_planner
+	url = https://github.com/BogdanBargaoanu/conference_event_planner
