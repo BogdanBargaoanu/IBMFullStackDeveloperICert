@@ -10,3 +10,6 @@
 [submodule "Developing Back-End Apps with Node.js and Express/labs/final_project/expressBookReviews"]
 	path = Developing Back-End Apps with Node.js and Express/labs/final_project/expressBookReviews
 	url = https://github.com/BogdanBargaoanu/expressBookReviews
+[submodule "Developing AI Applications with Python and Flask/labs/final_project/ai_emotion_detection"]
+	path = Developing AI Applications with Python and Flask/labs/final_project/ai_emotion_detection
+	url = https://github.com/BogdanBargaoanu/oaqjp-final-project-emb-ai
