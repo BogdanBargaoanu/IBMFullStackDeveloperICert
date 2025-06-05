@@ -7,3 +7,6 @@
 [submodule "Developing Front-End Apps with React/labs/e-plant"]
 	path = Developing Front-End Apps with React/labs/e-plant
 	url = https://github.com/BogdanBargaoanu/e-plantShopping
+[submodule "Developing Back-End Apps with Node.js and Express/labs/final_project/expressBookReviews"]
+	path = Developing Back-End Apps with Node.js and Express/labs/final_project/expressBookReviews
+	url = https://github.com/BogdanBargaoanu/expressBookReviews
