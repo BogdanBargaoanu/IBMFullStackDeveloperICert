@@ -1,0 +1,121 @@
+/* ChatGPT-inspired modern chatbot UI */
+.chat-container {
+    max-width: 600px;
+    margin: 32px auto;
+    border-radius: 16px;
+    box-shadow: 0 4px 32px 0 rgba(0,0,0,0.10);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    background: #fff;
+    border: 1px solid #ececec;
+}
+.header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px 28px 12px 28px;
+    background: #f7f7f8;
+    border-bottom: 1px solid #ececec;
+}
+.icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+.name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #222;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+.chat-log {
+    flex: 1;
+    padding: 24px 0;
+    overflow-y: auto;
+    background: #f7f7f8;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    font-size: 1.08rem;
+    border-radius: 0;
+    margin: 0;
+    box-shadow: none;
+}
+.chat-log p {
+    margin: 0 auto;
+    padding: 16px 24px;
+    border-radius: 8px;
+    background: #fff;
+    color: #222;
+    max-width: 70%;
+    word-break: break-word;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+    font-size: 1.08rem;
+    line-height: 1.6;
+}
+.chat-log p.user {
+    background: #007aff;
+    color: #fff;
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: 24px;
+}
+.chat-log p.bot {
+    background: #ececec;
+    color: #222;
+    align-self: flex-start;
+    margin-right: auto;
+    margin-left: 24px;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    padding: 18px 24px;
+    background: #f7f7f8;
+    border-top: 1px solid #ececec;
+    gap: 12px;
+}
+input[type="text"] {
+    flex: 1;
+    height: 44px;
+    padding: 0 16px;
+    border: 1px solid #ececec;
+    border-radius: 8px;
+    font-size: 1.08rem;
+    outline: none;
+    background: #fff;
+    box-shadow: none;
+    transition: border 0.2s;
+}
+input[type="text"]:focus {
+    border: 1.5px solid #007aff;
+}
+.input-container button {
+    padding: 0 28px;
+    height: 44px;
+    border: none;
+    border-radius: 8px;
+    background: #007aff;
+    color: #fff;
+    font-size: 1.08rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,122,255,0.08);
+    transition: background 0.2s, box-shadow 0.2s;
+}
+.input-container button:hover {
+    background: #005bb5;
+    box-shadow: 0 4px 16px rgba(0,122,255,0.13);
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    background: #ececec;
+    min-height: 100vh;
+}
+.logo { display: none; }
