@@ -13,3 +13,6 @@
 [submodule "Developing AI Applications with Python and Flask/labs/final_project/ai_emotion_detection"]
 	path = Developing AI Applications with Python and Flask/labs/final_project/ai_emotion_detection
 	url = https://github.com/BogdanBargaoanu/oaqjp-final-project-emb-ai
+[submodule "Full Stack Application Development Capstone Project/labs/final_project/dealership_app"]
+	path = Full Stack Application Development Capstone Project/labs/final_project/dealership_app
+	url = https://github.com/BogdanBargaoanu/xrwvm-fullstack_developer_capstone
